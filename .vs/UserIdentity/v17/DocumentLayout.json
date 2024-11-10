@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\furka\\source\\repos\\UserIdentity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{192119D5-3642-466B-B052-783DD80A9499}|UserIdentity\\UserIdentity.csproj|c:\\users\\furka\\source\\repos\\useridentity\\useridentity\\app_start\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{192119D5-3642-466B-B052-783DD80A9499}|UserIdentity\\UserIdentity.csproj|solutionrelative:useridentity\\app_start\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{192119D5-3642-466B-B052-783DD80A9499}|UserIdentity\\UserIdentity.csproj|c:\\users\\furka\\source\\repos\\useridentity\\useridentity\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{192119D5-3642-466B-B052-783DD80A9499}|UserIdentity\\UserIdentity.csproj|solutionrelative:useridentity\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\furka\\source\\repos\\UserIdentity\\UserIdentity\\Web.config",
+              "RelativeDocumentMoniker": "UserIdentity\\Web.config",
+              "ToolTip": "C:\\Users\\furka\\source\\repos\\UserIdentity\\UserIdentity\\Web.config",
+              "RelativeToolTip": "UserIdentity\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-10T19:33:16.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IdentityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\source\\repos\\UserIdentity\\UserIdentity\\App_Start\\IdentityConfig.cs",
+              "RelativeDocumentMoniker": "UserIdentity\\App_Start\\IdentityConfig.cs",
+              "ToolTip": "C:\\Users\\furka\\source\\repos\\UserIdentity\\UserIdentity\\App_Start\\IdentityConfig.cs",
+              "RelativeToolTip": "UserIdentity\\App_Start\\IdentityConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T19:28:10.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
