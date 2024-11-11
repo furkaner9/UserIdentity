@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Microsoft.AspNet.Identity.EntityFramework.IdentityRole> 
+﻿@model IEnumerable<Microsoft.AspNet.Identity.EntityFramework.IdentityRole>
 @{
     ViewBag.Title = "Index";
 }
@@ -15,24 +15,33 @@
             <th>Name</th>
             <th></th>
         </tr>
-        @if (Model.Count()==0) 
+        @if (Model.Count() == 0)
         {
-        <tr>
-            <td colspan="3">Role Yok</td>
-        </tr>
-        
+            <tr>
+                <td colspan="3">Role Yok</td>
+            </tr>
+
         }
-         else 
-        { 
-        foreach(var role in Model)
-                {
-                    <tr>
-                        <td>@role.Id</td>
-                        <td>@role.Name</td>
-                        <td></td>
-                    </tr>
-                }
-        
+        else
+        {
+            foreach (var role in Model)
+            {
+                <tr>
+                    <td>@role.Id</td>
+                    <td>@role.Name</td>
+                    <td>
+                        @using (Html.BeginForm("Delete", "RoleAdmin", new { id = role.Id }))
+                        {
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+
+                        }
+                        @Html.ActionLink("Güncelle", "Edit", new { id = role.Id }, new { @class = "btn btn-primary btn-sm" })
+
+
+                    </td>
+                </tr>
+            }
+
         }
 
 
